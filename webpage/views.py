@@ -9,3 +9,10 @@ def login (request):
 
 def register(request):
     return render(request,"register.html")
+
+def infomation(request):
+    return render(request,"infomation.html")
+
+def production(request):
+    return render(request,"production.html")
+
